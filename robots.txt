@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://williamrichardson743.github.io/official-narrative-div/sitemap.xml
