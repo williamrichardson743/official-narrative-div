@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 5400" width="4500" height="5400">
+  <!-- DRAFT — cycle-1788893755475 — concept: Left-Handed Dungeon Masters
+       Print area: 4500x5400 (15x18in @ 300dpi). Single ink #FFC800, intended for dark garments.
+       Convert text to outlines before uploading to Printify. -->
+  <defs>
+    <path id="arcTop" d="M 1170 2300 A 1080 1080 0 0 1 3330 2300"/>
+    <path id="arcBottom" d="M 1080 2300 A 1170 1170 0 0 0 3420 2300"/>
+  </defs>
+  <g fill="none" stroke="#FFC800" stroke-linejoin="round" stroke-linecap="round">
+    <!-- seal rings -->
+    <circle cx="2250" cy="2300" r="1250" stroke-width="44"/>
+    <circle cx="2250" cy="2300" r="1000" stroke-width="22"/>
+    <!-- d20: hexagon -->
+    <polygon points="2250,1680 2787,1990 2787,2610 2250,2920 1713,2610 1713,1990" stroke-width="40"/>
+    <!-- d20: inner face + edges -->
+    <polygon points="2250,2000 2510,2450 1990,2450" stroke-width="30"/>
+    <path d="M2250 2000 L2250 1680 M2250 2000 L1713 1990 M2250 2000 L2787 1990
+             M1990 2450 L1713 1990 M1990 2450 L1713 2610 M1990 2450 L2250 2920
+             M2510 2450 L2787 1990 M2510 2450 L2787 2610 M2510 2450 L2250 2920" stroke-width="22"/>
+  </g>
+  <g fill="#FFC800" font-family="'Space Grotesk', 'Arial Black', Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="2250" y="2375" font-size="200">20</text>
+    <text font-size="130"><textPath href="#arcTop" startOffset="50%" textLength="2800" lengthAdjust="spacingAndGlyphs">SINISTRAL GAMING AUTHORITY</textPath></text>
+    <text font-size="130"><textPath href="#arcBottom" startOffset="50%" textLength="1900" lengthAdjust="spacingAndGlyphs">★ CERTIFIED · NAT 20 ★</textPath></text>
+
+    <text x="2250" y="760" font-size="120" textLength="3500" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', 'Courier New', monospace" font-weight="700">OFFICIAL NARRATIVE DIV. — FORM LH-20</text>
+    <text x="2250" y="4080" font-size="400" textLength="3700" lengthAdjust="spacingAndGlyphs">LEFT-HANDED</text>
+    <text x="2250" y="4530" font-size="400" textLength="3700" lengthAdjust="spacingAndGlyphs">DUNGEON MASTER</text>
+    <rect x="850" y="4680" width="2800" height="16"/>
+    <text x="2250" y="4900" font-size="160" textLength="3400" lengthAdjust="spacingAndGlyphs">SINISTER BY DESIGN. CRITICAL BY NATURE.</text>
+  </g>
+</svg>

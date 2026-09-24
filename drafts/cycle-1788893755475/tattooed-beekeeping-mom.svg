@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 5400" width="4500" height="5400">
+  <!-- DRAFT — cycle-1788893755475 — concept: Tattooed Beekeeping Moms
+       Print area: 4500x5400 (15x18in @ 300dpi). Inks #FFC800 + #111827 (banner text), intended for dark garments.
+       Convert text to outlines before uploading to Printify. -->
+  <defs>
+    <clipPath id="beeBody"><ellipse cx="2250" cy="2330" rx="230" ry="340"/></clipPath>
+  </defs>
+  <g fill="none" stroke="#FFC800" stroke-linejoin="round" stroke-linecap="round">
+    <!-- honeycomb badge: double flat-top hexagon -->
+    <polygon points="1150,2200 1700,1247 2800,1247 3350,2200 2800,3153 1700,3153" stroke-width="44"/>
+    <polygon points="1250,2200 1750,1334 2750,1334 3250,2200 2750,3066 1750,3066" stroke-width="20"/>
+    <!-- wings -->
+    <ellipse cx="1960" cy="1900" rx="300" ry="170" transform="rotate(-30 1960 1900)" stroke-width="32"/>
+    <ellipse cx="2540" cy="1900" rx="300" ry="170" transform="rotate(30 2540 1900)" stroke-width="32"/>
+    <!-- body outline -->
+    <ellipse cx="2250" cy="2330" rx="230" ry="340" stroke-width="36"/>
+    <!-- antennae -->
+    <path d="M2200 1800 C2170 1700 2110 1640 2040 1620 M2300 1800 C2330 1700 2390 1640 2460 1620" stroke-width="26"/>
+  </g>
+  <g fill="#FFC800">
+    <!-- body stripes -->
+    <g clip-path="url(#beeBody)">
+      <rect x="1980" y="2090" width="540" height="90"/>
+      <rect x="1980" y="2270" width="540" height="90"/>
+      <rect x="1980" y="2450" width="540" height="90"/>
+    </g>
+    <!-- head, antenna tips, stinger -->
+    <circle cx="2250" cy="1880" r="120"/>
+    <circle cx="2030" cy="1618" r="36"/>
+    <circle cx="2470" cy="1618" r="36"/>
+    <polygon points="2200,2660 2300,2660 2250,2790"/>
+    <!-- tattoo-flash banner with forked tails -->
+    <polygon points="1050,2880 1330,2880 1330,3160 1050,3160 1170,3020"/>
+    <polygon points="3450,2880 3170,2880 3170,3160 3450,3160 3330,3020"/>
+    <rect x="1300" y="2840" width="1900" height="280" rx="12"/>
+  </g>
+  <g font-family="'Space Grotesk', 'Arial Black', Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="2250" y="3040" font-size="130" fill="#111827" textLength="1650" lengthAdjust="spacingAndGlyphs">LICENSED HIVE OPERATOR</text>
+    <g fill="#FFC800">
+      <text x="2250" y="760" font-size="120" textLength="3500" lengthAdjust="spacingAndGlyphs" font-family="'JetBrains Mono', 'Courier New', monospace" font-weight="700">OFFICIAL NARRATIVE DIV. — HIVE PERMIT 0042</text>
+      <text x="2250" y="3900" font-size="400" textLength="2750" lengthAdjust="spacingAndGlyphs">TATTOOED</text>
+      <text x="2250" y="4350" font-size="400" textLength="3700" lengthAdjust="spacingAndGlyphs">BEEKEEPING MOM</text>
+      <rect x="850" y="4500" width="2800" height="16"/>
+      <text x="2250" y="4730" font-size="160" textLength="3000" lengthAdjust="spacingAndGlyphs">INKED. STUNG. UNBOTHERED.</text>
+    </g>
+  </g>
+</svg>
